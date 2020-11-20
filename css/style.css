@@ -9,7 +9,6 @@ nav{
     flex-direction: column;
     align-items: center;
     background-color: #191970;
-
 }
 nav > a{
     text-decoration: none;
@@ -26,12 +25,10 @@ nav ul {
     list-style: none;
     padding: 0;
     width: 100%;
-
 }
 nav ul li {
     text-align: center;
     width: 100%;
-
 }
 nav ul li a{
     display: inline-block; 
@@ -39,9 +36,15 @@ nav ul li a{
     width: 100%;
     text-decoration: none;
     color: #FFFFFF;
-
 }
-/*CONTATO*/
+#title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin 0 auto;
+}
+/*CONTACT*/
 
 #contact{
     display: flex;
@@ -49,14 +52,73 @@ nav ul li a{
     align-items: center;
     text-align: center;
     padding: 20px;
-
-
 }
 
 #contact h2{
     color: #000000;
+}
+
+/*SCHEDULE*/
+
+#schedule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #191970;
+    color: #FFFFFF;
 
 }
+#schedule h2{
+    color: #FFFFFF;
+}
+#schedule p{
+
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+#schedule .botao{
+    background-color: #f1f1f1;
+    color: #1c1c1c;
+}
+
+/*TEACHERS */
+
+#teachers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+
+}
+#teachers div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+/*SUBJECTS*/
+
+#subjects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+
+}
+#subjects div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+
+}
+/*REMAINDER*/
 
 /*FOOTER*/
 
@@ -70,7 +132,7 @@ footer a{
     text-decoration: none;
     color: #00FFFF;
 }
- /*TABLE TIMES*/
+ /*
  p.a{
     text-align: justify;
 }
@@ -131,5 +193,5 @@ td.z{
 }
 tr.z{
     background: gray;
-}
+}*/
 /*FINISH TABLE*/
