@@ -70,3 +70,66 @@ footer a{
     text-decoration: none;
     color: #00FFFF;
 }
+ /*TABLE TIMES*/
+ p.a{
+    text-align: justify;
+}
+
+td.a{
+
+    background:rgb(187, 255, 153);
+}
+td.b{
+    
+    background: yellow;
+}
+td.c{
+    background:rgb(255, 128, 255);
+}
+td.d{
+    background: rgb(102, 255, 255);
+}
+td.e{
+    background: orange;
+}
+td.f{
+    background: red;
+}
+td.g{
+    background: rgb(0, 204, 102);
+}
+td.h{
+    background: rgb(0, 179, 179);
+
+}
+td.i{
+    background: rgb(51, 133, 255);
+}
+td.j{
+    background: rgb(120, 255, 31);
+}
+td.k{
+    background: rgb(230, 115, 0);
+}
+td.l{
+    background: rgb(255, 0, 170);
+}
+td.m{
+    background: rgb(255, 112, 77);
+}
+td.n{
+    background: rgb(204, 102, 255);
+}
+td.o{
+    background: rgb(217, 179, 255);
+}
+td.p{
+    background: rgb(179, 179, 0);
+}
+td.z{
+    color:black;
+}
+tr.z{
+    background: gray;
+}
+/*FINISH TABLE*/
